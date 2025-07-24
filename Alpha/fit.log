@@ -1,0 +1,175 @@
+
+
+*******************************************************************************
+Wed May 07 11:28:43 2025
+
+
+FIT:    data read from 'Ixalpha.dat'
+        format = z
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(a-1)*b**(a-1)*x**(-a)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.3836983676e+08   0.00e+00  1.19e+05    2.301020e+00   1.905000e+03
+1117 2.8942464753e+07  -2.61e-01  1.19e-10    1.302227e+00   1.637531e+15
+
+After 1117 iterations the fit converged.
+final sum of squares of residuals : 2.89425e+07
+rel. change during last iteration : -2.6067e-06
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2196.3
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.82374e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.30223          +/- 0.3473       (26.67%)
+b               = 1.63753e+15      +/- 7.356e+16    (4492%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -1.000  1.000 
+
+
+*******************************************************************************
+Wed May 07 20:46:21 2025
+
+
+FIT:    data read from 'Ixalpha.dat'
+        format = z
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(a-1)*b**(a-1)*x**(-a) + 10
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.3834746859e+08   0.00e+00  1.19e+05    2.301020e+00   1.905000e+03
+2451 2.1475902544e+07  -9.97e-01  1.19e-21    1.173160e+00   9.999386e+27
+
+After 2451 iterations the fit converged.
+final sum of squares of residuals : 2.14759e+07
+rel. change during last iteration : -9.96623e-06
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1891.91
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.57932e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.17316          +/- 0.2454       (20.92%)
+b               = 9.99939e+27      +/- 1.034e+30    (1.034e+04%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -1.000  1.000 
+
+
+*******************************************************************************
+Wed May 14 19:29:51 2025
+
+
+FIT:    data read from 'Ixalpha.dat'
+        format = z
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x**(-b)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 2.2682631907e+08   0.00e+00  6.53e-01    1.000000e+00   1.000000e+00   1.000000e+00
+
+Current data point
+=========================
+#               = 5 out of 8
+x               = 4770.06        
+z               = 2005           
+
+Current set of parameters
+=========================
+a               = 4770.06        
+b               = -479.752       
+c               = 3622.86        
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Wed May 14 19:32:40 2025
+
+
+FIT:    data read from 'Ixalpha.dat'
+        format = z
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x**b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.2672299400e+08   0.00e+00  7.46e+00    1.000000e+00   1.000000e+00
+   4 1.2757031800e+08  -2.79e-01  7.46e-04    9.967999e+03  -3.881113e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.2757e+08
+rel. change during last iteration : -2.78534e-06
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4611.04
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.12617e+07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 9968             +/- 4611         (46.26%)
+b               = -38.8111         +/- 3.262e+11    (8.405e+11%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.000  1.000 
+
+
+*******************************************************************************
+Wed May 14 19:36:20 2025
+
+
+FIT:    data read from 'Ixalpha.dat'
+        format = z
+        x range restricted to [-6.34516 : 11.9654]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x**b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.2738190500e+08   0.00e+00  7.98e+00    1.000000e+00   1.000000e+00
+ 103 1.2373407571e+06  -4.13e-07  7.98e+03    2.293548e+04  -1.389160e+00
+
+After 103 iterations the fit converged.
+final sum of squares of residuals : 1.23734e+06
+rel. change during last iteration : -4.12732e-12
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 497.462
+variance of residuals (reduced chisquare) = WSSR/ndf   : 247468
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 22935.5          +/- 2798         (12.2%)
+b               = -1.38916         +/- 0.1197       (8.615%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.932  1.000 

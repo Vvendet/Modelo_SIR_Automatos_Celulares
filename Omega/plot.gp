@@ -1,0 +1,1 @@
+plot 'infectados1.dat' w l title 'Omega = 1', 'infectados2.dat' w l title 'Omega = 4', 'infectados3.dat' w l title 'Omega = 7','infectados4.dat' w l title 'Omega = 10','infectados5.dat' w l title 'Omega = 13','infectados6.dat' w l title 'Omega = 16'
