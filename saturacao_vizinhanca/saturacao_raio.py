@@ -40,19 +40,19 @@ def saturation_radius(weights, epsilon=0.10):
 
 # === Parâmetros
 max_radius = 30
-weights = total_weight_up_to_radius(max_radius, tau_sqrt)
-r_sat_10 = saturation_radius(weights, epsilon=0.10)
+weights = total_weight_up_to_radius(max_radius, tau_inverse)
+r_sat_10 = saturation_radius(weights, epsilon=0.05)
 
 # === Gráfico
 plt.figure(figsize=(8, 5))
 plt.plot(range(1, max_radius + 1), weights, marker='o', label='Soma acumulada')
 
 if r_sat_10:
-    plt.axvline(r_sat_10, color='green', linestyle='--', label=f'Saturação ≈ raio {r_sat_10} (ganho < 10%)')
+    plt.axvline(r_sat_10, color='green', linestyle='--', label=f'Saturação ≈ raio {r_sat_10} (ganho < 5%)')
 else:
     plt.text(10, weights[-1]*0.7, "Sem saturação até raio 30", color='red')
 
-plt.title('Soma acumulada dos pesos τ(d) = 1/d^^(1/2) por raio de vizinhança')
+plt.title('Soma acumulada dos pesos τ(d) = 1/d por raio de vizinhança')
 plt.xlabel('Raio da vizinhança')
 plt.ylabel('Peso total acumulado')
 plt.grid(True)

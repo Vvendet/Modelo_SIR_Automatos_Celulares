@@ -4,10 +4,10 @@ from scipy.interpolate import interp1d
 from scipy.optimize import minimize
 
 # === Carrega os dados ===
-dados = np.loadtxt("media_infectados.dat")
+dados = np.loadtxt("infectados.dat")
 tempo = dados[:, 0]
 infectados = dados[:, 1]
-y_err = dados[:,2]
+#y_err = dados[:,2]
 N = 10000
 I_ac = infectados / N
 

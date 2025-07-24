@@ -9,9 +9,9 @@ import math
 grid_size = 10
 screen_size = 1000
 num_cells = screen_size // grid_size
-rec = 5  # tempo de recuperação
-theta = 9  # limiar de infecção equivalente a 1/d com Moore
-radius = 11  # raio da vizinhança
+rec = 4  # tempo de recuperação
+theta = 13 # limiar de infecção equivalente a 1/d com Moore
+radius = 21  # raio da vizinhança
 
 def tau_inverse(d):
     return 1 / d
